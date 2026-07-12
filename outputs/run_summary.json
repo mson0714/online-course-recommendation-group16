@@ -1,0 +1,15 @@
+{
+  "rows": 3424,
+  "columns": 11,
+  "tfidf_features": 30000,
+  "matrix_nonzeros": 433457,
+  "query_course": "Project Planning and Machine Learning",
+  "protocol": {
+    "query_index": 3294,
+    "query_title": "Applied AI with DeepLearning",
+    "relevant_count": 13,
+    "sampled_queries": 250,
+    "evaluated_queries": 157,
+    "relevance_threshold": 0.2
+  }
+}

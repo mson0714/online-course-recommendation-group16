@@ -1,0 +1,11 @@
+rank,course_id,course_title,university,difficulty_level,course_rating_filled,course_url,score
+1,C1811,Modeling and Debugging Embedded Systems,University of Colorado Boulder,Beginner,4.6,https://www.coursera.org/learn/modeling-debugging-embedded-systems,0.3002
+2,C1057,Industrial IoT Markets and Security,University of Colorado Boulder,Beginner,4.6,https://www.coursera.org/learn/industrial-iot-markets-security,0.2629
+3,C0817,Rapid Prototyping of Embedded Interface Designs,University of Colorado Boulder,Intermediate,4.6,https://www.coursera.org/learn/rapid-prototyping-embedded-interface,0.2207
+4,C2349,Machine Learning With Big Data,University of California San Diego,Beginner,4.6,https://www.coursera.org/learn/big-data-machine-learning,0.1984
+5,C2122,AI For Everyone,DeepLearning.AI,Conversant,4.8,https://www.coursera.org/learn/ai-for-everyone,0.1944
+6,C2600,Action-Driven Business Plan: From the 'Classroom' to the World,Technion - Israel Institute of Technology,Beginner,4.9,https://www.coursera.org/learn/startup-entrepreneurship-capstone,0.1843
+7,C1543,Displays,University of Colorado Boulder,Advanced,4.1,https://www.coursera.org/learn/displays,0.1793
+8,C2477,Introduction to Applied Machine Learning,Alberta Machine Intelligence Institute,Intermediate,4.7,https://www.coursera.org/learn/machine-learning-applied,0.1787
+9,C0827,Introduction to Power Electronics,University of Colorado Boulder,Advanced,4.7,https://www.coursera.org/learn/power-electronics,0.1779
+10,C0926,Getting Started with Azure DevOps Boards,Coursera Project Network,Beginner,4.8,https://www.coursera.org/learn/getting-started-azure-devops-boards,0.1757
