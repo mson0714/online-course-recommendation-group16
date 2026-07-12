@@ -26,11 +26,13 @@ proxy: another course is relevant when skill-set Jaccard similarity is at least
 
 ```bash
 python -m pip install -r requirements.txt
-python recommendation_system.py --data Coursera_cleaned_for_recommendation.csv
+jupyter notebook Online_Course_Recommendation_Demo.ipynb
 ```
 
-Outputs are written to `outputs/`: metrics, charts, run metadata, and an example
-top-10 list. The random query sample is reproducible (`random_state = 42`).
+In Jupyter, select **Cell → Run All** or execute the cells in order. The notebook
+is fully self-contained and reads `Coursera_cleaned_for_recommendation.csv`
+from the same directory. The random evaluation sample is reproducible
+(`random_state = 42`).
 
 ## Visual demo
 
@@ -38,16 +40,15 @@ Open `demo_recommender.html` directly in a modern browser. The page works
 offline and lets the presenter choose a query course, switch between Top 5 and
 Top 10, inspect recommendation scores, and explain the evaluation metrics.
 
-The HTML page contains precomputed outputs from the verified Python model for a
+The HTML page contains precomputed outputs from the verified notebook model for a
 smooth offline presentation. It does not refit TF-IDF in the browser; live model
-fitting and evaluation are performed by `recommendation_system.py`.
+fitting and evaluation are performed by the notebook.
 
 ## Submission files
 
-- `recommendation_system.py`: runnable recommender and evaluation pipeline.
-- `Online_Course_Recommendation_Demo.ipynb`: presentation-friendly notebook
-  organized into data, TF-IDF, recommendation, evaluation, and Q&A sections.
-- `Coursera_cleaned_for_recommendation.csv`: cleaned course catalog used by the script.
+- `Online_Course_Recommendation_Demo.ipynb`: complete runnable recommender,
+  organized into data, TF-IDF, recommendation, evaluation, charts, and Q&A sections.
+- `Coursera_cleaned_for_recommendation.csv`: cleaned course catalog used by the notebook.
 - `demo_recommender.html`: standalone offline visual demonstration.
 - `Online-Course-Recommendation.pptx`: project presentation.
 - `Group16_Online_Course_Recommendation_Report_Professional_TranLanh&TrinhMinhSon.tex`:
@@ -55,23 +56,13 @@ fitting and evaluation are performed by `recommendation_system.py`.
 - `Group16_Online_Course_Recommendation_Report_Professional_TranLanh&TrinhMinhSon.pdf`:
   final professional report.
 
-## Use from Python
-
-```python
-from recommendation_system import load_courses, fit_model, recommend_by_title
-
-courses = load_courses("Coursera_cleaned_for_recommendation.csv")
-_, course_matrix = fit_model(courses)
-print(recommend_by_title(courses, course_matrix, "Machine Learning", n=10))
-```
-
 ## Limitations
 
 Skill-overlap relevance favors courses with similar metadata and cannot measure
 novelty, diversity, completion, or satisfaction. A production evaluation should
 use anonymized learner interactions, temporal train/test splits, and online A/B
-testing. The script intentionally avoids claiming collaborative filtering from
-catalog-only data.
+testing. The notebook intentionally avoids claiming collaborative filtering
+from catalog-only data.
 
 ## Data source
 
