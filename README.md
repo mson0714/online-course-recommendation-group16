@@ -2,6 +2,8 @@
 
 Content-based top-N recommender for the Coursera Courses Dataset 2021.
 
+Repository: https://github.com/mson0714/online-course-recommendation-group16
+
 The submission also includes the professional project report in both LaTeX
 source and compiled PDF form, plus the PowerPoint presentation.
 
