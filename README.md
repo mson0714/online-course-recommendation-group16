@@ -26,7 +26,7 @@ proxy: another course is relevant when skill-set Jaccard similarity is at least
 
 ```bash
 python -m pip install -r requirements.txt
-jupyter notebook Online_Course_Recommendation_Demo.ipynb
+jupyter notebook Group16_Online_Course_Recommendation.ipynb
 ```
 
 In Jupyter, select **Cell → Run All** or execute the cells in order. The notebook
@@ -46,7 +46,7 @@ fitting and evaluation are performed by the notebook.
 
 ## Submission files
 
-- `Online_Course_Recommendation_Demo.ipynb`: complete runnable recommender,
+- `Group16_Online_Course_Recommendation.ipynb`: complete runnable recommender,
   organized into data, TF-IDF, recommendation, evaluation, charts, and Q&A sections.
 - `Coursera_cleaned_for_recommendation.csv`: cleaned course catalog used by the notebook.
 - `demo_recommender.html`: standalone offline visual demonstration.
