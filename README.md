@@ -45,6 +45,8 @@ fitting and evaluation are performed by `recommendation_system.py`.
 ## Submission files
 
 - `recommendation_system.py`: runnable recommender and evaluation pipeline.
+- `Online_Course_Recommendation_Demo.ipynb`: presentation-friendly notebook
+  organized into data, TF-IDF, recommendation, evaluation, and Q&A sections.
 - `Coursera_cleaned_for_recommendation.csv`: cleaned course catalog used by the script.
 - `demo_recommender.html`: standalone offline visual demonstration.
 - `Online-Course-Recommendation.pptx`: project presentation.
